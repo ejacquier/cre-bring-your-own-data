@@ -77,10 +77,11 @@ CRE_ETH_PRIVATE_KEY=000000000000000000000000000000000000000000000000000000000000
 
 If **Bun** is not already installed, follow the instructions at: [https://bun.com/docs/installation](https://bun.com/docs/installation)
 
-From your project root, run:
+From the `cre/` directory, install dependencies for both the workflow and contracts:
 
 ```bash
 bun install --cwd ./my-workflow
+bun install --cwd ./contracts
 ```
 
 ### 3. Configure RPC endpoints
