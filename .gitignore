@@ -1,0 +1,11 @@
+node_modules/
+.env
+artifacts/
+cache/
+typechain-types/
+ignition/deployments/
+cre/my-workflow/node_modules/
+cre/contracts/node_modules/
+cre/my-workflow/dist/
+cre/my-workflow/binary.wasm
+cre/my-workflow/.cre_build_tmp.*

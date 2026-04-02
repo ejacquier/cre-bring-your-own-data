@@ -1,0 +1,15 @@
+{
+  "schedule": "*/30 * * * * *",
+  "url": "https://api.real-time-reserves.verinumus.io/v1/chainlink/proof-of-reserves/TrueUSD",
+  "evms": [
+    {
+      "tokenAddress": "0x4700A50d858Cb281847ca4Ee0938F80DEfB3F1dd",
+      "porAddress": "0xD32F9f5A24F800178Cd0d241ecfEd1D8B9f2ccC2",
+      "proxyAddress": "0xD32F9f5A24F800178Cd0d241ecfEd1D8B9f2ccC2",
+      "balanceReaderAddress": "0x4b0739c94C1389B55481cb7506c62430cA7211Cf",
+      "messageEmitterAddress": "0x1d598672486ecB50685Da5497390571Ac4E93FDc",
+      "chainSelectorName": "binance_smart_chain-testnet",
+      "gasLimit": "1000000"
+    }
+  ]
+}
